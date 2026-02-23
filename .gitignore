@@ -1,0 +1,35 @@
+# Reference solutions
+.reference/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# Python
+__pycache__/
+*.pyc
+.coverage
+.pytest_cache/
+*.egg-info/
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# OMC
+.omc/
